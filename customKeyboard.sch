@@ -362,77 +362,60 @@ Wire Wire Line
 Wire Wire Line
 	2700 3350 2200 3350
 $Comp
-L random-keyboard-parts:Molex-0548190589 USB1
-U 1 1 63886A70
-P 5450 1500
-F 0 "USB1" V 5987 1467 60  0000 C CNN
-F 1 "Molex-0548190589" V 5881 1467 60  0000 C CNN
-F 2 "random-keyboard-parts:Molex-0548190589" H 5450 1500 60  0001 C CNN
-F 3 "" H 5450 1500 60  0001 C CNN
-	1    5450 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:VCC #PWR0110
 U 1 1 63889DF8
-P 6350 1300
-F 0 "#PWR0110" H 6350 1150 50  0001 C CNN
-F 1 "VCC" H 6367 1473 50  0000 C CNN
-F 2 "" H 6350 1300 50  0001 C CNN
-F 3 "" H 6350 1300 50  0001 C CNN
-	1    6350 1300
+P 2300 850
+F 0 "#PWR0110" H 2300 700 50  0001 C CNN
+F 1 "VCC" H 2317 1023 50  0000 C CNN
+F 2 "" H 2300 850 50  0001 C CNN
+F 3 "" H 2300 850 50  0001 C CNN
+	1    2300 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 1300 6350 1300
+	1700 850  2300 850 
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 6388E7A8
-P 6700 1300
-F 0 "F1" V 6495 1300 50  0000 C CNN
-F 1 "500mA" V 6586 1300 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 6750 1100 50  0001 L CNN
-F 3 "~" H 6700 1300 50  0001 C CNN
-	1    6700 1300
+P 2650 850
+F 0 "F1" V 2445 850 50  0000 C CNN
+F 1 "500mA" V 2536 850 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 2700 650 50  0001 L CNN
+F 3 "~" H 2650 850 50  0001 C CNN
+	1    2650 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0111
 U 1 1 6388F728
-P 7250 1300
-F 0 "#PWR0111" H 7250 1150 50  0001 C CNN
-F 1 "+5V" H 7265 1473 50  0000 C CNN
-F 2 "" H 7250 1300 50  0001 C CNN
-F 3 "" H 7250 1300 50  0001 C CNN
-	1    7250 1300
+P 3200 850
+F 0 "#PWR0111" H 3200 700 50  0001 C CNN
+F 1 "+5V" H 3215 1023 50  0000 C CNN
+F 2 "" H 3200 850 50  0001 C CNN
+F 3 "" H 3200 850 50  0001 C CNN
+	1    3200 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 1300 6600 1300
-Connection ~ 6350 1300
+	2300 850  2550 850 
+Connection ~ 2300 850 
 Wire Wire Line
-	6800 1300 7250 1300
-Text GLabel 6000 1400 2    50   Input ~ 0
+	2750 850  3200 850 
+Text GLabel 2150 1350 2    50   Input ~ 0
 D-
-Text GLabel 6000 1500 2    50   Input ~ 0
+Text GLabel 2150 1650 2    50   Input ~ 0
 D+
-Wire Wire Line
-	5750 1400 6000 1400
-Wire Wire Line
-	5750 1500 6000 1500
 $Comp
 L power:GND #PWR0112
 U 1 1 63894070
-P 5950 1700
-F 0 "#PWR0112" H 5950 1450 50  0001 C CNN
-F 1 "GND" H 5955 1527 50  0000 C CNN
-F 2 "" H 5950 1700 50  0001 C CNN
-F 3 "" H 5950 1700 50  0001 C CNN
-	1    5950 1700
+P 1050 2600
+F 0 "#PWR0112" H 1050 2350 50  0001 C CNN
+F 1 "GND" H 1055 2427 50  0000 C CNN
+F 2 "" H 1050 2600 50  0001 C CNN
+F 3 "" H 1050 2600 50  0001 C CNN
+	1    1050 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 1700 5950 1700
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 6389CFD1
@@ -2571,4 +2554,171 @@ Wire Wire Line
 Wire Wire Line
 	10900 2350 10900 2050
 Connection ~ 10900 2350
+Wire Wire Line
+	5950 4650 6150 4650
+Wire Wire Line
+	6150 4650 6450 4650
+Connection ~ 6150 4650
+Wire Wire Line
+	6450 4650 6750 4650
+Connection ~ 6450 4650
+Wire Wire Line
+	6750 4650 7050 4650
+Connection ~ 6750 4650
+Wire Wire Line
+	7050 4650 7350 4650
+Connection ~ 7050 4650
+Wire Wire Line
+	7350 4650 7650 4650
+Connection ~ 7350 4650
+Wire Wire Line
+	7650 4650 7950 4650
+Connection ~ 7650 4650
+Wire Wire Line
+	7950 4650 8250 4650
+Connection ~ 7950 4650
+Wire Wire Line
+	8250 4650 8550 4650
+Connection ~ 8250 4650
+Wire Wire Line
+	8550 4650 8850 4650
+Connection ~ 8550 4650
+Wire Wire Line
+	8850 4650 9150 4650
+Connection ~ 8850 4650
+Wire Wire Line
+	9150 4650 9450 4650
+Connection ~ 9150 4650
+Wire Wire Line
+	9450 4650 9750 4650
+Connection ~ 9450 4650
+Wire Wire Line
+	10050 4650 9750 4650
+Connection ~ 9750 4650
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 63A0586A
+P 1100 1450
+F 0 "J1" H 1207 2317 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1207 2226 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1250 1450 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 1450 50  0001 C CNN
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  2350 800  2600
+Wire Wire Line
+	800  2600 1050 2600
+Wire Wire Line
+	1100 2350 1100 2600
+Wire Wire Line
+	1100 2600 1050 2600
+Connection ~ 1050 2600
+Wire Wire Line
+	1700 1350 1900 1350
+Wire Wire Line
+	1700 1450 1900 1450
+Wire Wire Line
+	1900 1450 1900 1350
+Connection ~ 1900 1350
+Wire Wire Line
+	1900 1350 2150 1350
+Wire Wire Line
+	1700 1650 1900 1650
+Wire Wire Line
+	1700 1550 1900 1550
+Wire Wire Line
+	1900 1550 1900 1650
+Connection ~ 1900 1650
+Wire Wire Line
+	1900 1650 2150 1650
+$Comp
+L Device:R_Small R5
+U 1 1 63B37481
+P 2000 1050
+F 0 "R5" V 1804 1050 50  0000 C CNN
+F 1 "5.1k" V 1895 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 1050 50  0001 C CNN
+F 3 "~" H 2000 1050 50  0001 C CNN
+	1    2000 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 63B39EE6
+P 2350 1150
+F 0 "R6" V 2154 1150 50  0000 C CNN
+F 1 "5.1k" V 2245 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2350 1150 50  0001 C CNN
+F 3 "~" H 2350 1150 50  0001 C CNN
+	1    2350 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 63B4F962
+P 2700 1100
+F 0 "#PWR0114" H 2700 850 50  0001 C CNN
+F 1 "GND" V 2705 972 50  0000 R CNN
+F 2 "" H 2700 1100 50  0001 C CNN
+F 3 "" H 2700 1100 50  0001 C CNN
+	1    2700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1050 1900 1050
+Wire Wire Line
+	2100 1050 2700 1050
+Wire Wire Line
+	2700 1050 2700 1100
+Wire Wire Line
+	2250 1150 1700 1150
+Wire Wire Line
+	2450 1150 2700 1150
+Wire Wire Line
+	2700 1150 2700 1100
+Connection ~ 2700 1100
+Text GLabel 4850 4150 2    50   Input ~ 0
+ROW0
+Text GLabel 4850 4050 2    50   Input ~ 0
+ROW1
+Text GLabel 4850 3950 2    50   Input ~ 0
+ROW2
+Text GLabel 4850 3850 2    50   Input ~ 0
+ROW3
+Text GLabel 4850 3750 2    50   Input ~ 0
+ROW4
+Text GLabel 4850 2250 2    50   Input ~ 0
+COL0
+Text GLabel 4850 2350 2    50   Input ~ 0
+COL1
+Text GLabel 4850 2450 2    50   Input ~ 0
+COL2
+Text GLabel 4850 2550 2    50   Input ~ 0
+COL3
+Text GLabel 4850 2650 2    50   Input ~ 0
+COL4
+Text GLabel 4850 2750 2    50   Input ~ 0
+COL5
+Text GLabel 4850 2850 2    50   Input ~ 0
+COL6
+Text GLabel 4850 2950 2    50   Input ~ 0
+COL7
+Text GLabel 4850 3150 2    50   Input ~ 0
+COL8
+Text GLabel 4850 3250 2    50   Input ~ 0
+COL9
+Text GLabel 4850 3450 2    50   Input ~ 0
+COL10
+Text GLabel 4850 3550 2    50   Input ~ 0
+COL11
+Text GLabel 4850 3650 2    50   Input ~ 0
+COL12
+Text GLabel 4850 4650 2    50   Input ~ 0
+COL13
+Text GLabel 4850 4750 2    50   Input ~ 0
+COL14
+Text GLabel 4850 4850 2    50   Input ~ 0
+COL15
 $EndSCHEMATC

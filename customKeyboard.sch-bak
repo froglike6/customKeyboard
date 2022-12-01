@@ -362,17 +362,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 3350 2200 3350
 $Comp
-L random-keyboard-parts:Molex-0548190589 USB1
-U 1 1 63886A70
-P 8800 1250
-F 0 "USB1" V 9337 1217 60  0000 C CNN
-F 1 "Molex-0548190589" V 9231 1217 60  0000 C CNN
-F 2 "random-keyboard-parts:Molex-0548190589" H 8800 1250 60  0001 C CNN
-F 3 "" H 8800 1250 60  0001 C CNN
-	1    8800 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:VCC #PWR0110
 U 1 1 63889DF8
 P 2300 850
